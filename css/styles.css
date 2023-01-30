@@ -1,0 +1,88 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500&display=swap');
+
+/* background/text */
+body
+{
+    background-color: rgb(70, 73, 104);
+    color:antiquewhite;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+
+nav
+{
+    font-family: 'Hind Guntur';
+}
+
+a {
+    color:orange;
+}
+
+a:visited {
+    color:rgb(255, 195, 172);
+}
+
+a:hover {
+    color:rgb(255, 195, 172);
+}
+
+/* icons */
+ion-icon {
+    font-size: 32px;
+  }
+
+
+/* specific element ids */
+#top h1 {
+    position:absolute; 
+    top:50%; 
+    left:50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#section {
+    font-size:xx-large;
+    text-decoration: none;
+    color:antiquewhite;
+    text-align:center;
+}
+
+#body-text {
+    font-size:x-large;
+    display:inline-block;
+    width: 50%;
+}
+
+#contact-link {
+    font-family: 'Libre Franklin';
+}
+
+#skill-sets {
+    display:inline-table; 
+    width:70%;
+}
+
+#project {
+    display:inline-table;
+    width:80%;
+}
+
+/* helper classes */
+
+/* prevent text selection */
+.prevent-select 
+{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+/* shadowed text */
+.shadowed
+{
+    text-shadow: 2px 2px 4px #000000;
+}

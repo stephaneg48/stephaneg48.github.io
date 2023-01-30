@@ -1,0 +1,48 @@
+/* definitions specifically for animating elements */
+.elementToFadeInAndOut {
+    animation: fadeInOut 3s linear 1 forwards;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    25% {
+        opacity: 1;
+      }
+    50% {
+        opacity: 1;
+      }
+    75% {
+        opacity: 1;
+      }
+    100% {
+      opacity: 0;
+    }
+  }
+
+/* element animation timings (in order) */
+
+/* top div */
+#hello {
+    opacity: 0%;
+    animation-delay: 0s
+}
+#name {
+    opacity: 0%;
+    animation-delay: 3s
+}
+
+#welcome {
+    opacity: 0%;
+    animation-delay: 6s
+}
+
+/* content div */
+#nav {
+    animation-delay: 9s
+}
+
+#section {
+    animation-delay: 10s
+}
